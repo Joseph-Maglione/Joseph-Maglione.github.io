@@ -6,7 +6,7 @@ GitHub Pages site for the studio's apps. Two jobs, and nothing else belongs here
 
 One folder per app, serving `index.html` at `/<app>/`:
 
-    https://joeymags-studios.github.io/<app>/
+    https://joseph-maglione.github.io/<app>/
 
 **There is deliberately no index of the apps.** The root page and `404.html`
 name no app and link to no folder, so one app's policy cannot be trimmed to
@@ -25,7 +25,7 @@ The line authorises AdMob publisher `pub-6313858681834032` to sell this
 studio's inventory.
 
 Set the developer website on every store listing to
-`https://joeymags-studios.github.io` so the crawler finds it.
+`https://joseph-maglione.github.io` so the crawler finds it.
 
 ## Why this is an organization
 
