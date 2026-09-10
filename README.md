@@ -1,6 +1,6 @@
-# JoeyMags Studios
+# Joseph Maglione — app sites
 
-GitHub Pages site for the studio's apps. Two jobs, and nothing else belongs here.
+GitHub Pages site for the apps. Two jobs, and nothing else belongs here.
 
 ## Privacy policies
 
@@ -21,8 +21,8 @@ policy URL wherever it is asked for. Change nothing at the root.
 
 `app-ads.txt` must answer at the ROOT of whatever developer website an app's
 store listing names, which is why it lives here rather than in a subfolder.
-The line authorises AdMob publisher `pub-6313858681834032` to sell this
-studio's inventory.
+The line authorises AdMob publisher `pub-6313858681834032` to sell these
+apps.
 
 Set the developer website on every store listing to
 `https://joseph-maglione.github.io` so the crawler finds it.
