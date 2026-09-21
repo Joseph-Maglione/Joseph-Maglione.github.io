@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://joseph-maglione.github.io/sitemap.xml

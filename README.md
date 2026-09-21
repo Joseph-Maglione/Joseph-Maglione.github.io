@@ -22,7 +22,8 @@ One folder per app, serving `index.html` at `/<app>/`:
     https://joseph-maglione.github.io/<app>/
 
 **Each app page is self-contained.** It carries no navigation, and it links
-neither to the root nor to any other app page. A page covers exactly one app
+neither to the root nor to any other app page (a favicon `<link>` to the root
+icon files is not navigation and is fine). A page covers exactly one app
 and says so. Anything shared between them is copied, not linked.
 
 Adding an app: create `/<app>/index.html` and use its address as the privacy
@@ -40,6 +41,24 @@ apps.
 
 Set the developer website on every store listing to
 `https://joseph-maglione.github.io` so the crawler finds it.
+
+## Site plumbing
+
+`robots.txt` at the root allows everything and points crawlers at
+`sitemap.xml`. The sitemap lists the app pages only — the root and `404.html`
+are noindex and deliberately stay out of it; the point above, that the root
+names no app, still holds, because the sitemap is for search engines and App
+Review reaching each policy directly, not for a person browsing the site, and
+the folder names are public on github.com anyway.
+
+`favicon.svg` and `favicon.ico` at the root are the site-wide fallback icon.
+An app page that has its own icon (Water Play's, for instance) links it with
+a relative `<link rel="icon">` instead of falling back to the root one.
+
+Every app page also carries a `<link rel="canonical">` and a set of Open
+Graph / Twitter tags (`og:type`, `og:site_name`, `og:title`, `og:description`,
+`og:url`, `twitter:card`, plus `og:image` where a page has an icon to point
+at). Keep new pages to that pattern.
 
 ## Why this is an organization
 
